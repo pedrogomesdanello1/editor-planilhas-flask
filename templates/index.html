@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor de Planilhas de Verificação</title>
+    <title>VERIFICATTION</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,16 +90,16 @@
 
         <form action="/processar" method="post" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="planilha">1. Faça o upload do arquivo (.xlsx ou .zip):</label>
+                <label for="planilha">1. Faça o upload do verification (.xlsx ou .zip):</label>
                 <input type="file" id="planilha" name="planilha" required accept=".xlsx, .xls, .zip">
             </div>
 
             <div class="form-group">
-                <label for="numeros_reais">2. Insira os "Números reais do relatório":</label>
+                <label for="numeros_reais">2. Insira os Measurables:</label>
                 <input type="number" id="numeros_reais" name="numeros_reais" required placeholder="Ex: 85000">
             </div>
 
-            <button type="submit">Processar e Baixar Planilha</button>
+            <button type="submit">Processar e Baixar Verification Ajustado</button>
         </form>
     </div>
 </body>
