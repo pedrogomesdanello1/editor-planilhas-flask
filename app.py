@@ -97,7 +97,7 @@ def processar_planilha():
 
         output = io.BytesIO()
         nome_base, _ = os.path.splitext(planilha_original_nome)
-        novo_nome_arquivo = f"{nome_base}_editado.xlsx"
+        novo_nome_arquivo = f"{nome_base}.xlsx"
 
         with pd.ExcelWriter(output, engine='openpyxl') as writer:
             df.to_excel(writer, index=False, sheet_name='Sheet1')
