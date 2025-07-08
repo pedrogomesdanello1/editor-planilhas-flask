@@ -47,7 +47,6 @@ pypdf==5.6.1
 python-bidi==0.6.6
 python-dateutil==2.9.0.post0
 pytz==2025.2
-pywin32==310
 PyYAML==6.0.2
 reportlab==4.4.2
 requests==2.32.4
